@@ -1,0 +1,18 @@
+.main{
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    width: 34%;
+    height: 300px;
+    position: absolute;
+    top: ;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+}
