@@ -4,7 +4,7 @@ import './main.css'
 function Main(){
     return(
         <section className='main'>
-            <img />
+            <img alt='theImage' />
             <input />
             <span className='main-buttons'>
                 <button>Google Search</button>
