@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faTh} from '@fortawesome/free-solid-svg-icons'
 import {faAngry} from '@fortawesome/free-solid-svg-icons'
 import './header.css'
 
 function Header(){
+    const [toggle, setToggle] = useState(false)
     
     const iconArray = () => {
         let resArr = []
@@ -26,9 +27,9 @@ function Header(){
             <span>
                 <p>Gmail</p>
                 <p>Images</p>
-                <FontAwesomeIcon className='th-icon' icon={faTh}></FontAwesomeIcon>
+                <FontAwesomeIcon onClick={() => setToggle(!toggle)} className='th-icon' icon={faTh}></FontAwesomeIcon>
             </span>
-            <section className='icon-box'>
+            <section className={toggle === false ? 'box-none' : 'icon-box'}>
                 {iconMap}
             </section>
         </header>
