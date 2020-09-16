@@ -48,3 +48,12 @@ span p{
 .box-none{
     display: none;
 }
+.user-container{
+    background-image: url('../../happy_face.png');
+    /* background-color: lavenderblush; */
+    width: 35px;
+    height: 35px;
+    box-shadow: inset 0 0 10px black;
+    border-radius: 20px;
+    margin: 10px;
+}

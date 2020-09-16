@@ -28,6 +28,7 @@ function Header(){
                 <p>Gmail</p>
                 <p>Images</p>
                 <FontAwesomeIcon onClick={() => setToggle(!toggle)} className='th-icon' icon={faTh}></FontAwesomeIcon>
+                <div className='user-container'></div>
             </span>
             <section className={toggle === false ? 'box-none' : 'icon-box'}>
                 {iconMap}

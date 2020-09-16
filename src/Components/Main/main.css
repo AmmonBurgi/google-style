@@ -4,6 +4,10 @@
     width: 34%;
     height: 300px;
     position: absolute;
+    top: 0;
+    bottom: 140px;
+    margin-bottom: auto;
+    margin-top: auto;
     right: 0;
     left: 0;
     margin-left: auto;
@@ -14,4 +18,19 @@
     display: flex;
     justify-content: space-evenly;
     background-color: blanchedalmond;
+}
+.input-section{
+    background-color: white;
+    width: 80%;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+    /* align-items: center; */
+}
+.inner-input{
+    width: 80%;
+    border: none;
+
 }
