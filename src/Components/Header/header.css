@@ -19,7 +19,10 @@ span p{
 }
 .th-icon{
     margin: 5px;
-    font-size: 20px;
+    font-size: 25px;
+}
+.th-icon:hover{
+    color: grey;
 }
 .icon-box{
     box-sizing: border-box;
